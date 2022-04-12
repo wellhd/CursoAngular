@@ -1,0 +1,49 @@
+.cal {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+mat-card {
+    left: 71%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1px 5px 0 blue;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.mat-raised-button.active {
+    background-image: linear-gradient(180deg, red, yellow);
+    color: white;
+}
+
+#somar {
+    position: absolute;
+    font-size: 15px;
+    border-radius: 30px;
+    top: 10%;
+    left: 100%;
+    width: 80px;
+    box-shadow: 0 1px 5px 0 blue;
+    color: white;
+    background-color: orange;
+    padding: 5px;
+}
+
+#limpar {
+    position: absolute;
+    font-size: 15px;
+    border-radius: 30px;
+    top: 10%;
+    width: 80px;
+    box-shadow: 0 1px 5px 0 blue;
+    color: white;
+    background-color: #006eb4;
+    left: 115%;
+    padding: 5px;
+}

@@ -1,0 +1,27 @@
+<app-nave></app-nave>
+
+
+
+<div class="cal">
+    <button mat-button (click)="change()"> Mudar Cores</button>
+    <mat-form-field appearance="outline">
+        <mat-label>Valor 1</mat-label>
+        <input matInput type="number" id="myNumber" placeholder="Valor 1" [(ngModel)]="value1">
+    </mat-form-field>
+    +
+    <mat-form-field appearance="outline">
+        <mat-label>Valor 2</mat-label>
+        <input matInput type="number" id="myNumber" placeholder="Valor 2" [(ngModel)]="value2">
+
+    </mat-form-field>
+
+
+    <button mat-raised-button id="somar" [class.active]="isActive" (click)="calcularSoma()">Somar</button>
+
+    <button mat-raised-button id="limpar" [class.active]="isActive" (click)="clear()">Limpar</button>
+    <br><br>
+
+    <mat-card appearance="outline" *ngIf="valorTotal"> = {{valorTotal}}
+    </mat-card>
+
+</div>

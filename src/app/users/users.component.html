@@ -1,0 +1,23 @@
+<app-nave></app-nave>
+
+<div class="grid">
+
+
+
+  <mat-card class="card" routerLink="/users" *ngFor="let x of users">
+
+
+
+    <mat-card-header>
+      <div mat-card-avatar class="image" [ngStyle]="{ 'background-image': 'url(\'' + x.avatar + '\')' }"></div>
+      <mat-card-title>{{x.first_name}} {{x.last_name}}</mat-card-title>
+      <mat-card-subtitle>{{x.email}}</mat-card-subtitle>
+
+    </mat-card-header>
+
+
+
+  </mat-card>
+
+
+</div>
